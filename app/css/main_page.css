@@ -12,6 +12,7 @@ body {
  width: 250px;
  height: 900px;
  background-color: rgba(255, 255, 255, 0.2);
+
 }
 .shape3 {
 	width: 100%;
@@ -19,20 +20,34 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 .stonks {
 	width: 20px;
 	height: 20px;
+	margin-right: 9px;
+
+}
+.navcontent{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 830px;
 }
 .navpoint {
 	margin: 20px;
+
+}
+.navpointmini{
+	display: flex;
+	align-items: center;	
 }
 .footer {
-	
+	margin-bottom: 20px;
+	margin: 20px;
 }
 .content {
 	flex: 1;
-	/*background-color: red;*/
 
 }
 .profile {
@@ -40,4 +55,16 @@ body {
 	height: 70px;
 	border: 3px;
 	background-color: #fff;
+	display: flex;
+	justify-content: flex-end;
+}
+.imgnav{
+	margin-right: 10px;
+	margin-bottom: 2px;
+	width: 16px;
+	height: 16px;
+}
+.logout{
+	margin-right: 10px;
+	margin-bottom: -1px;
 }
