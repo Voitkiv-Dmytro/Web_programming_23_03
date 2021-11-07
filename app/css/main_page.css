@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
     padding: 0;
@@ -43,20 +46,29 @@ body {
 	align-items: center;	
 }
 .footer {
-	margin-bottom: 20px;
 	margin: 20px;
 }
 .content {
-	flex: 1;
-
+	width: 100%;
+	height: 900px;
+	flex-grow: 1;
 }
-.profile {
+.header {
 	width: 100%;
 	height: 70px;
-	border: 3px;
+	border: 3px solid red;
+	border-radius: 2px;
+	padding-right: 18px;
 	background-color: #fff;
 	display: flex;
 	justify-content: flex-end;
+
+}
+.profile {
+	display: flex;
+	flex-direction: row;
+	margin-right: 40px;
+	column-gap: 35px;
 }
 .imgnav{
 	margin-right: 10px;
@@ -67,4 +79,18 @@ body {
 .logout{
 	margin-right: 10px;
 	margin-bottom: -1px;
+}
+.information {
+	display: flex;
+	flex-direction: column;
+}
+.top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.lower-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
