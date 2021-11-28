@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Profile"
+  },
+  {
+    "type": "Mail"
+  },
+  {
+    "type": "Tasks"
+  },
+  {
+    "type": "Settings"
+  }
+]
